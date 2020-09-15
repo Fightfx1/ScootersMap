@@ -1,0 +1,79 @@
+/* Customer View */
+.customer-view{
+  border: 1px solid black;
+  border-radius: 4px;
+  text-align: center;
+  font-family: "Calibri";
+  line-height: 0.01;
+}
+.customer-view h2 {
+  margin-left: 12px;
+  align-items: center;
+
+}
+.customer-view-plans {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  
+}
+.customer-view-plan {
+  font-family: "Calibri Light";
+  background-color: white;
+  padding: 24px;
+  text-align: center;
+  flex: 1;
+  margin: 0 12px 24px;
+  min-width: 280px;
+  
+  
+}
+.customer-view-plan h4{
+  padding: 12px;
+  line-height: 0.2;
+  
+  
+}
+.customer-view-plan h3 {
+  margin-top: 0px;
+  
+}
+
+.btn {
+  font-family: "Calibri Light";
+  background-color: #46b4eb;
+}
+
+/* Sign Up Page */
+.sign-up {
+  width: 50%;
+  margin: 0 auto;
+  min-width: 280px;
+}
+
+.sign-up h2 {
+  margin-top: 6px;
+}
+
+.sign-up-product {
+  margin-top: 24px;
+}
+
+.sign-up-container {
+  padding: 24px;
+  background-color: #eee;
+  border-radius: 3px;
+}
+
+.sign-up .btn {
+  margin-top: 16px;
+}
+
+#card-errors {
+  margin-top: 6px;
+  font-size: 14px;
+}
