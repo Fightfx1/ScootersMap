@@ -2,10 +2,10 @@ const Zazoo = require('./Lib/Zazoo/Bot/Zazoo.js').Zazoo
 const fs = require('fs');
 
 const Bot = new Zazoo({
-    accessToken: 'EAAGkHO1TLCwBABjUr0wOVzp7jXaADwSzUyJAaidpyFW26dXolFqOGvDqIKk2GYdMQLWlZBOcI9yyV2QpJIQezhVpbTjeqpdaBsGsp5RnXYij1jiNZCcyVKjDosZBJkRuJ14PuaFE3whazNkvEZCQXevt8g5LOyMiIvBGJWiqTgZDZD', 
-    verifyToken: 'T_gT!c2CYr+NdG%6v!BR', // choose what ever you want
-    appSecret: 'ca89304fb6b5b942bd7734aa33aec3fa', // app secret from facebook developer
-    Url: "https://a44f1270.ngrok.io/" // Domain That the bot running on him
+    accessToken: '', 
+    verifyToken: '', // choose what ever you want
+    appSecret: '', // app secret from facebook developer
+    Url: "" // Domain That the bot running on him
 })
 
 
